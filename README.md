@@ -26,7 +26,7 @@ utilizando el siguiente endPoint se crearan el repositorio de las preguntas
 en el endPoint copiar y pegar el siguiente json para enviarlo como body
 
 body
-``
+```
 [{
     "id": "1",
     "question": "Cual es la capital de colombia?",
@@ -326,7 +326,7 @@ body
 }
 
 ]
-``
+```
 
 para poder correr la App (en Visual Studio Code)se debe correr el Front con React-redux y Node.js http://localhost:3000/ Para iniciar el juego encontraras una landinPage donde podras guardar el nombre del jugador e iniciar el juego de preguntas iniciara en el nivel 1 (Categoria 1 ) que consta de 5 preguntas sin embargo solo te saldra 1 aleatoria de las 5. son 5 categorias cada una de 5 preguntas con un total de 25 preguntas.
 
