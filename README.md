@@ -333,3 +333,11 @@ para poder correr la App (en Visual Studio Code)se debe correr el Front con Reac
  al responder de forma correcta aumentaras de nivel y de esa manera se otorgara 20 puntos por cada pregunta correcta. si llegas a fallar terminara el juego. ● debes seleccionar una opción de 4 posibles.
 
 podras salir del juego si deseas con el boton Salir tambien el sistema finaliza el juego porque no selecciono una pregunta correcta. al finalizar del juego te va a arrojar el puntaje.
+
+
+<img src="./src/img/LandinPage.JPG"/>
+<img src="./src/img/Question.JPG"/>
+<img src="./src/img/QuestionOk.JPG"/>
+<img src="./src/img/QuestionNot.JPG"/>
+<img src="./src/img/Ganaste.JPG"/>
+<img src="./src/img/Perdiste.JPG"/>
