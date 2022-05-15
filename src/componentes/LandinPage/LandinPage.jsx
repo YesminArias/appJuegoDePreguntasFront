@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./LandinPage.css";
 import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { postJugador, getQuestion } from "../../Redux/actions";
 
 export default function LandingPage() {
@@ -15,15 +15,15 @@ export default function LandingPage() {
 
   function handleInputName() {
     var juagador = {
-        name,
-    }
+      name,
+    };
     dispatch(postJugador(juagador));
     dispatch(getQuestion(1));
   }
 
   return (
     <div className="portada">
-      <h2>Juego de Preguntas </h2>
+      <h1>Juego de Preguntas </h1>
 
       <div className="bienvenida">
         <div>
@@ -40,15 +40,13 @@ export default function LandingPage() {
           <br />
           <br />
           <br />
-          <Link  to="/questions">
-            <button onClick={(e) => handleInputName()}>
-                Comenzar
-            </button>
+          <Link to="/questions">
+            <button onClick={(e) => handleInputName()}>Comenzar</button>
           </Link>
         </div>
 
         <img
-          src="https://img2.freepng.es/20180328/yrq/kisspng-question-mark-drawing-clip-art-question-5abc078fba7d16.1149263615222721437639.jpg"
+          src="https://www.nicepng.com/png/detail/239-2399751_signo-de-interrogacin-question-mark-man-png.png"
           alt="preguntas"
         />
       </div>

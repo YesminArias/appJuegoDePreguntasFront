@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import "./Question.css";
 import Card from "../Card/Card";
 import { Link } from "react-router-dom";
-import { getQuestion, upLevel } from "../../Redux/actions";
 
 export default function Question() {
   const dispatch = useDispatch();
@@ -12,16 +11,14 @@ export default function Question() {
   const jugador = useSelector((e) => e.jugador);
   const question = useSelector((e) => e.question);
 
-
-  
   return (
     <div className="portadaQuestion">
       <div>
-        <h2>Juego de Preguntas</h2>
+        <h1>Juego de Preguntas</h1>
         <h3> Hola {jugador.name} </h3>
         <div className="nivel">
-        <h4  >NIVEL {level}</h4>
-        <h4>Puntaje: {score}</h4>
+          <h4>NIVEL {level}</h4>
+          <h4>Puntaje: {score}</h4>
         </div>
 
         <div className="pregunta">

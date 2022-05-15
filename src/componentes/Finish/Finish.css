@@ -1,0 +1,17 @@
+.imgPerdiste{
+    width: 20%;
+
+}
+.textPerdiste{
+    color:red;
+}
+.textGanaste{
+    color:green;
+}
+.imgGanaste{
+    width: 20%;
+}   
+h1{
+    padding:5px;
+    background-color:rgba(87, 176, 167, 0.559);
+}

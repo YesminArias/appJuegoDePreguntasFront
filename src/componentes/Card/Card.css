@@ -18,6 +18,7 @@
     height: 7vh;
     background-color:rgba(208, 228, 224, 0.357);
     border-radius:10px;
+    font-size: 25px;    
 }
 .respuesta:hover{
     background-color:rgba(145, 221, 206, 0.357);
